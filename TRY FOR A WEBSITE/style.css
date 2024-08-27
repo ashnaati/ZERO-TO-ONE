@@ -1,0 +1,20 @@
+#audio-player-container {
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+    color: #bc4a4a;
+}
+
+audio {
+    width: 100%;
+}
+
+#video-player-container {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+#video-player-container {
+    width: 100%;
+}
