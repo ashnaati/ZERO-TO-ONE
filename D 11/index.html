@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class of CSS Selectors </title>
+    <style>
+        /* Element selector */
+        div {
+            background-color: rgb(208, 255, 0);
+        }
+
+        /* Class Selector */
+        .brown {
+            background-color: brown;
+        }
+
+        /* Id Selector */
+        #green {
+            background-color: rgb(109, 0, 128);
+        }
+
+        /* Child Selectors  */
+        div>p {
+            color: rgba(255, 119, 0, 0);
+            background-color: rgb(42, 81, 165);
+        }
+
+        /* Descendant Selector  */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector  */
+        a:visited {
+            color: yellow
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+
+        p:first-child {
+            background-color: rgb(255, 0, 162);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I AM PARA ONE</p>
+        <P>I AM PARA TWO</P>
+    </main>
+    <div class="brown">
+        This is DIV ONE.
+        <article>
+            <p>
+                This PARA is inside the div.
+            </p>
+        </article>
+
+    </div>
+    <div id="green">
+        This is DIV TWO.
+
+    </div>
+    <a href="https://www.google.com">GO TO GOOGLE</a>
+    <a href="https://www.gmail.com">GO TO GMAIL</a>
+
+
+
+
+</body>
+
+</html>
