@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision 004</title>
+</head>
+
+<body>
+    <form action="/submit-form" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" name="username" id="username"> <br>
+
+        <label for="password">Password:</label><br>
+        <input type="text" name="password" id="password"> <br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" name="hobbies" id="reading" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" name="hobbies" id="writing" value="writing">
+        <label for="writing">Writing</label><br>
+        <input type="checkbox" name="hobbies" id="Traveling" value="Traveling">
+        <label for="traveling">Traveling</label><br>
+
+        <label for="bio">Bio</label><br>
+        <textarea name="bio" id="bio"></textarea><br>
+
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="U.S.A.">U.S.A.</option>
+            <option value="U.K.">U.K.</option>
+        </select><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
