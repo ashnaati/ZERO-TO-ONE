@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* ELEMENT SELECTORS. */
+        div {
+            background-color: rgb(38, 0, 255);
+            color: yellow;
+        }
+
+        /* CLASS SELECTOR. */
+        .red {
+            background-color: red;
+            color: brown;
+        }
+
+        /* ID SELECTOR. */
+        #green {
+            background-color: green;
+            color: rgb(255, 47, 47);
+        }
+
+        /* CHILD SELECTORS ; IT MEANS <DIV> KEH ANDAR SIRF <P> HI HONAH CHAHIYE!  */
+        div>p {
+            color: chartreuse;
+            background-color: aqua;
+        }
+
+        /* DESCENDANT SELECTORS ; IT MEANS <DIV> KEH ANDAR KUCHH BHI HO, JO BHI TAG LAGAYOGEH SUCH THAT <P> VOH WORK KAREGA */
+        div p {
+            background-color: darkgrey;
+            color: brown;
+        }
+
+        /* Universal selectors */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selectors */
+        a:visited {
+            color: #000;
+        }
+
+        a:link {
+            color: cornflowerblue;
+        }
+
+        a:active {
+            background-color: crimson;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!--THIS IS ALREADY PRACTICED IN PAST FOLDERS AND THIS IS JUST A ANOTHER SAME PRACTICE FOLDER aka #revision -->
+    <div class="red">THIS IS DIV 01 Lorem ipsum dolor sit amet.</div>
+    <div>THIS IS DIV 02 Lorem ipsum dolor sit amet.</div>
+
+
+    <p id="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus voluptas sed eligendi
+        voluptatibus ratione ab officiis omnis ullam voluptatem.</p>
+
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus repudiandae, inventore
+            architecto fugit ipsum labore, nobis doloribus ullam culpa quaerat, accusantium dicta dolore praesentium.
+        </p>
+    </div>
+
+    <div>
+        <article>THIS IS PARA.</article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus repudiandae, inventore
+            architecto fugit ipsum labore, nobis doloribus ullam culpa quaerat, accusantium dicta dolore praesentium.
+        </p>
+    </div>
+    <a href="https://www.google.com">Open GOOGLE</a>
+    <a href="https://www.facebook.com">Open FACEBOOK</a>
+    <a href="https://www.youtube.com">Open YOUTUBE</a>
+
+
+</body>
+
+</html>
